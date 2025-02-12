@@ -197,11 +197,11 @@ const LoanDetails = () => {
           <input id="TermYear" name="TermYear" type="number" required />
         </li>
         <li className="LoanDetailField">
-          <label htmlFor="StartYear">Term start year: </label>
+          <label htmlFor="StartYear">Starting year: </label>
           <input id="StartYear" name="StartYear" type="number" required />
         </li>
         <li className="LoanDetailField">
-          <label htmlFor="StartMonth">Term start month: </label>
+          <label htmlFor="StartMonth">Starting month: </label>
           <select id="StartMonth" name="StartMonth" type="string" required>
             <option value="">--- Please select ---</option>
             <option value="1">January</option>

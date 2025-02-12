@@ -117,6 +117,9 @@ const RepaymentTable = () => {
           New interest rate is applied to the month that has been changed, as
           well as all following months
         </p>
+        <p className="Notes">
+          This is an estimate only and does not constitute financial advice.
+        </p>
         <table>
           <tbody>
             <tr className="StickyHeaderRow">
@@ -241,9 +244,6 @@ const RepaymentTable = () => {
             </tr>
           </tbody>
         </table>
-        <p className="Notes">
-          This is an estimate only and does not constitute financial advice.
-        </p>
       </div>
     </>
   );
