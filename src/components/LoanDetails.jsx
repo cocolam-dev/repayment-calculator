@@ -188,6 +188,7 @@ const LoanDetails = () => {
             id="StartInterest"
             name="StartInterest"
             type="number"
+            step=".01"
             required
           />
         </li>
